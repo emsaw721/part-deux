@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css'; 
 
 export default function Home() {
   return (
-    <div>
+    <div className='content'>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque

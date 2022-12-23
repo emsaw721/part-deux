@@ -8,18 +8,18 @@ function Resume() {
         return <li>{feskill}</li>
     })
 
+    const [backEnd, backEndList] = useState(['Node', 'Express', 'SQL', 'NoSQL', 'PWA', 'React'])
+    let getBEList= backEnd.map((beskill) => {
+        return <li>{beskill}</li>
+    })
+
     return(
-        <div>
+        <div className='content'>
             <ul> Front End
                 <li>{getFEList}</li>
             </ul>
             <ul> Back End
-                <li>Node</li>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>NoSQL</li>
-                <li>PWA</li>
-                <li>React</li>
+                <li>{getBEList}</li>
             </ul>
         </div> 
     )

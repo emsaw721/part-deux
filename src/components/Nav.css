@@ -1,0 +1,15 @@
+:root {
+    font-family: Cormorant-Garamond; 
+}
+
+.nav {
+    background-color: #ddd9d4;
+}
+
+a.nav-link{
+    color: black; 
+}
+
+.nav-tabs {
+    justify-content: 
+}

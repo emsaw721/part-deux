@@ -1,15 +1,84 @@
 :root {
-    font-family: Cormorant-Garamond; 
+    font-family: Lato; 
 }
+
 
 .nav {
     background-color: #ddd9d4;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.nav-item{
+  font-size: 2em; 
+  color: black; 
+  font-family: Lato; 
 }
 
 a.nav-link{
-    color: black; 
+    color: white; 
 }
 
-.nav-tabs {
-    justify-content: 
+a.nav-link:hover {
+    text-decoration: none; 
+    color:  #ddd9d4; 
 }
+
+a.nav-link:visited {
+  color: black; 
+  text-decoration: none; 
+}
+
+a.nav-link:active {
+  color: white; 
+  text-decoration: none; 
+}
+.hover-2 {
+  --h: 1.2em;   /* the height */
+  
+  line-height: var(--h);
+  color: #0000;
+  background: 
+    linear-gradient( #FEFBEA 0 0) 
+    bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.hover-2:hover {
+  --_i: 0;
+  text-decoration: none; 
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    background-color: #ddd9d4;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.nav-item{
+  font-size: 1em; 
+  color: black; 
+  font-family: Lato; 
+}
+a.nav-link{
+  color: white; 
+}
+
+a.nav-link:hover {
+  text-decoration: none; 
+  color:  #ddd9d4; 
+}
+
+a.nav-link:visited {
+color: black; 
+text-decoration: none; 
+}
+
+a.nav-link:active {
+color: white; 
+text-decoration: none; 
+}
+
+}
+

@@ -2,8 +2,8 @@ import React from 'react';
 import './Nav.css'; 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav">
+      <li className="nav-item hover-2">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -13,7 +13,7 @@ function Nav({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hover-2">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -23,11 +23,11 @@ function Nav({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hover-2">
         <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'} >Projects</a>
 
       </li>
-      <li className="nav-item">
+      <li className="nav-item hover-2">
         <a
           href="#contact"
 
@@ -37,7 +37,7 @@ function Nav({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item hover-2">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}

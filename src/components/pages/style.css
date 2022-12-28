@@ -60,6 +60,42 @@
 
   @media only screen and (max-width: 600px) {
 
-
+    .content {
+      background-color: #ddd9d4; 
+    }
+    
+    .content h1{
+      font-family: Playfair display; 
+      font-size: 2em; 
+    }
+    
+    .name-plate {
+      z-index: 1; 
+      position: absolute; 
+      top: 30%; 
+      left: 20%;  
+      font-family: Author sans-serif; 
+    }
+    .name-plate h1 {
+      color: black; 
+      font-size: 2em; 
+      font-family: silverstone; 
+      font-style: bold; 
+    }
+    
+    .name-plate h4 {
+      font-family: Abril Fatface; 
+    }
+    
+    .content img {
+      width: 75%; 
+      margin: none; 
+      position: relative;
+    }
+   
+    .content p {
+      font-family: Lato; 
+      position: relative; 
+    }
   }
   

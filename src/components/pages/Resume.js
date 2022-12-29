@@ -1,5 +1,5 @@
 import React, {useState} from 'react'; 
-import './style.css';
+import './Resume.css';
 
 function Resume() {
     const [frontEnd] = useState(['HTML', 'CSS', 'JavaScript', 'Web APIs', 'Third-Party APIs']);

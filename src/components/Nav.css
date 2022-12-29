@@ -6,6 +6,20 @@
   --tertiary-color: #eae0d5;
   --quaternary-color: #c6ac8f;
   --quinary-color: #5e503f; 
+}
+
+ul {
+  color: var(--secondary-color); 
+  font-family: Lato; 
+}
+
+li {
+  color: var(--secondary-color); 
+  font-family: Lato; 
+}
+
+ul li {
+  color: var(--secondary-color); 
   font-family: Lato; 
 }
 
@@ -13,32 +27,54 @@
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: flex-end; 
+    color: var(--secondary-color); 
+    font-family: Lato; 
+}
+
+a.nav {
+  color: var(--secondary-color); 
+  font-family: Lato; 
+}
+
+.nav a {
+  color: var(--secondary-color); 
+  font-family: Lato; 
 }
 
 .nav-item{
   font-size: 2em; 
-  color: black; 
+  color: var(--secondary-color); 
+  font-family: Lato; 
+}
+
+.nav-item a {
+  color: var(--secondary-color); 
+  font-family: Lato; 
+}
+
+a.nav-item {
+  color: var(--secondary-color); 
   font-family: Lato; 
 }
 
 a.nav-link{
-    color: white; 
+  color: var(--secondary-color); 
+  font-family: Lato; 
 }
+
 
 a.nav-link:hover {
     text-decoration: none; 
-    color:  #ddd9d4; 
+    color: var(--secondary-color); 
+    font-family: Lato;  
 }
 
 a.nav-link:visited {
-  color: black; 
+  color: var(--secondary-color); 
+  font-family: Lato; 
   text-decoration: none; 
 }
 
-a.nav-link:active {
-  color: white; 
-  text-decoration: none; 
-}
 .hover-2 {
   --h: 1.2em;   /* the height */
   
@@ -62,31 +98,31 @@ a.nav-link:active {
     flex-direction: column;  
     align-items: center; 
     padding: none; 
-    margin: none; 
+    margin-top: 100vh; 
+    color: var(--secondary-color); 
+    font-family: Lato; 
 }
 
 .nav-item{
   font-size: 2em; 
-  color: black; 
+  color: var(--secondary-color); 
   font-family: Lato; 
   margin: none; 
 }
 a.nav-link{
-  color: white; 
+  color: var(--secondary-color); 
+  font-family: Lato; 
 }
 
 a.nav-link:hover {
   text-decoration: none; 
-  color:  #ddd9d4; 
+  color: var(--secondary-color); 
+  font-family: Lato; 
 }
 
 a.nav-link:visited {
-color: black; 
-text-decoration: none; 
-}
-
-a.nav-link:active {
-color: white; 
+  color: var(--secondary-color); 
+  font-family: Lato;  
 text-decoration: none; 
 }
 

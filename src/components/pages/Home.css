@@ -1,0 +1,78 @@
+
+
+:root {
+  background-color: var(--tertiary-color);
+  --primary-color: #0a0908;
+  --secondary-color: #22333b;
+  --tertiary-color: #eae0d5;
+  --quaternary-color: #c6ac8f;
+  --quinary-color: #5e503f; 
+}
+
+.home{
+  background-color: var(--tertiary-color); 
+}
+.name-plate {
+  z-index: 1; 
+  position: absolute; 
+  top: 30%; 
+  left: 20%;  
+}
+
+.name-plate h1 {
+  color: var(--secondary-color); 
+  font-size: 5em; 
+  font-family: Noto Emoji; 
+}
+
+.home img {
+  top: 3%; 
+  left: 30%;
+  position: relative;
+  opacity: 0.5; 
+}
+
+.home img:hover {
+  opacity: 1.0; 
+}
+
+
+  @media only screen and (max-width: 600px) {
+
+    .home {
+      background-color: var(--tertiary-color); 
+    }
+    
+    .home h1{
+      font-family: Playfair display; 
+      font-size: 2em; 
+    }
+    
+    .home img {
+      width: 100%; 
+      top: 0; 
+      left: 0; 
+      position: absolute; 
+      opacity: 1; 
+    }
+
+
+.img-wrapper {
+  display: grid;
+  height: 100vh;
+}
+
+.img-wrapper div {
+  grid-column: 1;
+  grid-row: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--gray);
+  transition: opacity 0.1s;
+}
+    .name-plate {
+      margin-top: 10%; 
+    }
+  }
+  

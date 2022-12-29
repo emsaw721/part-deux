@@ -1,16 +1,22 @@
 
 
 :root {
-  background-color: #ddd9d4; 
+  background-color: var(--tertiary-color);
+  --primary-color: #0a0908;
+  --secondary-color: #22333b;
+  --tertiary-color: #eae0d5;
+  --quaternary-color: #c6ac8f;
+  --quinary-color: #5e503f; 
 }
 
 .content {
-  background-color: #ddd9d4; 
+  background-color: var(--tertiary-color); 
 }
 
 .content h1{
   font-family: Playfair display; 
   font-size: 5em; 
+  color: var(--primary-color); 
 }
 
 .name-plate {
@@ -22,7 +28,7 @@
 }
 
 .name-plate h1 {
-  color: black; 
+  color: var(--primary-color); 
   font-size: 5em; 
   font-family: silverstone; 
   font-style: bold; 
@@ -58,10 +64,10 @@
     width: 100%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 250px) {
 
     .content {
-      background-color: #ddd9d4; 
+      background-color: var(--tertiary-color); 
     }
     
     .content h1{
@@ -69,30 +75,14 @@
       font-size: 2em; 
     }
     
-    .name-plate {
-      z-index: 1; 
-      position: absolute; 
-      top: 30%; 
-      left: 20%;  
-      font-family: Author sans-serif; 
-    }
-    .name-plate h1 {
-      color: black; 
-      font-size: 2em; 
-      font-family: silverstone; 
-      font-style: bold; 
-    }
-    
-    .name-plate h4 {
-      font-family: Abril Fatface; 
-    }
-    
     .content img {
       width: 75%; 
-      margin: none; 
-      position: relative;
+      margin: 0; 
     }
    
+    .name-plate {
+      margin: 50% 0 0 0; 
+    }
     .content p {
       font-family: Lato; 
       position: relative; 

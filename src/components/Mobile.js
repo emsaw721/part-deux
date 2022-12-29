@@ -6,7 +6,7 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 
-export default function PortfolioContainer() {
+export default function Mobile() {
   const [currentPage, setCurrentPage] = useState('Home');
   const renderPage = () => {
     if (currentPage === 'Home') {
@@ -28,9 +28,9 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+    <Home></Home>
+    <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+    {renderPage()}
     </div>
   );
 }

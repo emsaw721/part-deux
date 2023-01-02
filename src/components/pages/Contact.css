@@ -1,35 +1,53 @@
-
 :root {
-  background-color: var(--tertiary-color);
-  --primary-color: #0a0908;
-  --secondary-color: #2c434d;
-  --tertiary-color: #eae0d5;
-  --quaternary-color: #c6ac8f;
-  --quinary-color: #5e503f; 
+  --primary-color: #0D1B2A;
+  --secondary-color: #1B263B;
+  --tertiary-color: #415A77;
+  --quaternary-color: #778DA9;
+  --quinary-color: #E0E1DD; 
 }
 
-
-/* .content {
-  background-color: var(--tertiary-color); 
-}
-
-.content h1{
+.contact h1 {
   font-family: Playfair display; 
+  background-color: var(--quinary-color);
+  color: var(--secondary-color);
+  margin-top: 5%;
   font-size: 5em; 
-  color: var(--primary-color); 
-} */
-/* 
-.content p {
-  font-family: Lato; 
 }
 
 .form {
     margin: 20px;
   }
   
-  .form input {
+.form input {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-  } */
+    font-family: 'League Script', cursive; 
+    color: var(--secondary-color); 
+    font-size: 2em; 
+} 
+
+.form button {
+    border: var(--tertiary-color) solid 2px;
+    border-radius: 2px; 
+    font-family: Lato; 
+    justify-content: end; 
+    margin: 5px; 
+    color: var(--primary-color);
+    background-color: var(--quinary-color);
+    font-family: Lato; 
+    text-transform: uppercase; 
+  }
+  
+.form button:hover {
+    border: var(--tertiary-color) solid 2px;
+    border-radius: 2px; 
+    font-family: Lato; 
+    justify-content: end; 
+    margin: 5px; 
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    font-family: Lato; 
+    text-transform: uppercase; 
+  }

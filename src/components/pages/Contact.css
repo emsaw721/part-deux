@@ -1,4 +1,13 @@
 
+:root {
+  background-color: var(--tertiary-color);
+  --primary-color: #0a0908;
+  --secondary-color: #2c434d;
+  --tertiary-color: #eae0d5;
+  --quaternary-color: #c6ac8f;
+  --quinary-color: #5e503f; 
+}
+
 
 /* .content {
   background-color: var(--tertiary-color); 

@@ -1,76 +1,57 @@
 
 :root {
-  background-color: var(--tertiary-color);
-  --primary-color: #0a0908;
-  --secondary-color: #22333b;
-  --tertiary-color: #eae0d5;
-  --quaternary-color: #c6ac8f;
-  --quinary-color: #5e503f; 
-}
-
-ul {
-  color: var(--secondary-color); 
-  font-family: Lato; 
-}
-
-li {
-  color: var(--secondary-color); 
-  font-family: Lato; 
-}
-
-ul li {
-  color: var(--secondary-color); 
-  font-family: Lato; 
+  --primary-color: #0D1B2A;
+  --secondary-color: #1B263B;
+  --tertiary-color: #415A77;
+  --quaternary-color: #778DA9;
+  --quinary-color: #E0E1DD; 
 }
 
 .nav {
-    background-color: var(--tertiary-color);
+    background-color: var(--quinary-color);
     display: flex;
     justify-content: flex-end; 
-    color: var(--secondary-color); 
+    color: var(--primary-color); 
     font-family: Lato; 
+    border-bottom: var(--primary-color) dashed 1px; 
 }
 
 a.nav {
-  color: var(--secondary-color); 
-  font-family: Lato; 
-}
-
-.nav a {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
 }
 
 .nav-item{
   font-size: 2em; 
-  color: var(--secondary-color); 
-  font-family: Lato; 
-}
-
-.nav-item a {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
 }
 
 a.nav-item {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
 }
 
 a.nav-link{
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
 }
 
-
 a.nav-link:hover {
     text-decoration: none; 
-    color: var(--secondary-color); 
+    color: var(--quinary-color); 
     font-family: Lato;  
 }
 
+a.nav-link:active {
+  text-decoration: none; 
+  color: var(--quinary-color); 
+  font-family: Lato; 
+  background-color: var(--quaternary-color);
+}
+
 a.nav-link:visited {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
   text-decoration: none; 
 }
@@ -79,16 +60,19 @@ a.nav-link:visited {
   --h: 1.2em;   /* the height */
   
   line-height: var(--h);
-  color: #0000;
   background: 
-    linear-gradient( #FEFBEA 0 0) 
+    linear-gradient( #778DA9 0 0) 
     bottom/100% calc(100% - var(--_i,1)*100%) no-repeat;
   overflow: hidden;
   transition: 0.3s;
+  font-family: Lato; 
 }
+
 .hover-2:hover {
   --_i: 0;
   text-decoration: none; 
+  font-family: Lato; 
+  color: var(--quinary-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -99,13 +83,13 @@ a.nav-link:visited {
     align-items: center; 
     padding: none; 
     margin-top: 100vh; 
-    color: var(--secondary-color); 
+    color: var(--primary-color); 
     font-family: Lato; 
 }
 
 .nav-item{
   font-size: 2em; 
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   font-family: Lato; 
   margin: none; 
 }

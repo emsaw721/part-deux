@@ -14,16 +14,6 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item hover-2">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item hover-2">
         <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'} >Projects</a>
 
       </li>

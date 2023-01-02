@@ -44,6 +44,10 @@ function Contact() {
 
   return (
   <div className='content'>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+</style>
+
   <h1>Contact Page</h1>
       <form className="form">
         <input

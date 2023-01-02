@@ -15,6 +15,10 @@ function Resume() {
 
     return(
         <div className='content'>
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+</style>
+        <h1 className='resumecontent'>Resume</h1>
             <ul> Front End
                 <li>{getFEList}</li>
             </ul>

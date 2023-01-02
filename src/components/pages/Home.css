@@ -1,16 +1,14 @@
 
-
 :root {
-  background-color: var(--tertiary-color);
-  --primary-color: #0a0908;
-  --secondary-color: #22333b;
-  --tertiary-color: #eae0d5;
-  --quaternary-color: #c6ac8f;
-  --quinary-color: #5e503f; 
+  --primary-color: #0D1B2A;
+  --secondary-color: #1B263B;
+  --tertiary-color: #415A77;
+  --quaternary-color: #778DA9;
+  --quinary-color: #E0E1DD; 
 }
 
 .home{
-  background-color: var(--tertiary-color); 
+  background-color: var(--quinary-color); 
 }
 .name-plate {
   z-index: 1; 
@@ -21,21 +19,41 @@
 
 .name-plate h1 {
   color: var(--secondary-color); 
-  font-size: 5em; 
-  font-family: Noto Emoji; 
+  font-size: 7em; 
+  font-family: 'League Script', cursive; 
 }
 
 .home img {
-  top: 3%; 
   left: 30%;
+  margin-top: 5%; 
   position: relative;
   opacity: 0.5; 
+  border-radius: 50%; 
+  display: block; 
+  overflow: hidden; 
 }
 
 .home img:hover {
   opacity: 1.0; 
+  border-radius: 50%; 
+  display: block; 
+  overflow: hidden; 
 }
 
+.home p {
+  margin-top: 7%; 
+  margin-left: 20%;
+  font-family: Lato; 
+  font-size: 2em; 
+  color: var(--primary-color);
+
+}
+
+.home span {
+  color: var(--tertiary-color);
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
 
   @media only screen and (max-width: 600px) {
 
@@ -54,6 +72,9 @@
       left: 0; 
       position: absolute; 
       opacity: 1; 
+      border-radius: 50%; 
+      display: block; 
+      overflow: hidden; 
     }
 
 

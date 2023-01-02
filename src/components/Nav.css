@@ -12,8 +12,7 @@
     display: flex;
     justify-content: flex-end; 
     color: var(--primary-color); 
-    font-family: Lato; 
-    border-bottom: var(--primary-color) dashed 1px; 
+    font-family: Lato;  
 }
 
 a.nav {

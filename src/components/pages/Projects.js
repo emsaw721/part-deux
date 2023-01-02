@@ -18,8 +18,10 @@ export default function Projects() {
           <h2>Second Project</h2>
           <p>CSS, JavaScript, Handlebars, and SQL</p>
           <img src="https://via.placeholder.com/250" />
+          <div className='buttoncontainer'>
           <button><a href="https://github.com/emsaw721/lab-rats">View Github</a></button>
           <button><a href="https://obscure-lake-69191.herokuapp.com/">View Heroku</a></button>
+          </div>
         </div>
         <div className='box coming-soon'>
           <h2>Third Project Coming Soon!</h2>

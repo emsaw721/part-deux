@@ -48,7 +48,7 @@ function Contact() {
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
   <h1>Contact</h1>
-  <p>Thank you for dropping by! Feel free to send a note or inquire for more information about me.</p>
+  <p>Feel free to send a note or inquire for more information.</p>
       <form className="form">
         <input
           value={contactName}

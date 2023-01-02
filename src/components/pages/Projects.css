@@ -6,8 +6,92 @@
   --quinary-color: #E0E1DD; 
 }
 
-
-  .content h1 {
+  .projectscontent h1 {
     font-family: Playfair display; 
     background-color: var(--quinary-color);
+    color: var(--secondary-color);
+    margin-top: 5%;
+    font-size: 5em; 
   }
+
+
+.boxcontainer {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  margin: 5%; 
+}
+
+.coming-soon {
+  opacity: 0.2; 
+}
+
+.box {
+  display: flex; 
+  width: 400px; 
+  height: 600px; 
+  border: var(--quaternary-color) solid 1px; 
+  border-radius: 5px; 
+  margin: 1%; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+}
+
+.box h2{
+  font-family: Lato; 
+  text-align: center;
+  color: var(--tertiary-color);
+  font-weight: bold; 
+}
+
+.box p{
+  font-family: Lato; 
+  text-align: center; 
+}
+
+.box img{
+  width: 250px; 
+  height: 250px; 
+  margin: 5%; 
+}
+
+button {
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 2px; 
+  font-family: Lato; 
+  justify-content: end; 
+  margin: 5px; 
+  color: var(--primary-color);
+  background-color: var(--quinary-color);
+  font-family: Lato; 
+  text-transform: uppercase; 
+}
+
+button:hover {
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 2px; 
+  font-family: Lato; 
+  justify-content: end; 
+  margin: 5px; 
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  font-family: Lato; 
+  text-transform: uppercase; 
+}
+
+button a {
+  text-decoration: none; 
+  color: var(--primary-color);
+  background-color: var(--quinary-color);
+  font-family: Lato; 
+  text-transform: uppercase;  
+}
+
+button a:hover {
+  text-decoration: none; 
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  font-family: Lato; 
+  text-transform: uppercase;  
+}

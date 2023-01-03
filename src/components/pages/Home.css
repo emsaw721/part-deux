@@ -11,10 +11,14 @@
   background-color: var(--quinary-color); 
 }
 
+.hello {
+  height: 50%; 
+}
+
 .name-plate {
   z-index: 1; 
   position: absolute; 
-  top: 35%; 
+  top: 50%; 
   left: 20%;  
 }
 
@@ -24,17 +28,17 @@
   font-family: 'League Script', cursive; 
 }
 
-.home img {
-  left: 30%;
+.homeimg {
+  width: 600px; 
+  height: 600px; 
+  margin-left: 30%;
   margin-top: 5%; 
-  position: relative;
   opacity: 0.5; 
   border-radius: 50%; 
-  display: block; 
   overflow: hidden; 
 }
 
-.home img:hover {
+.homeimg:hover {
   opacity: 1.0; 
   border-radius: 50%; 
   display: block; 
@@ -42,12 +46,14 @@
 }
 
 .intro {
-  margin-top: 7%; 
+  margin-top: 20%; 
   margin-left: 20%;
   margin-bottom: 7%; 
   font-family: Lato; 
   font-size: 2em; 
   color: var(--primary-color);
+  position: sticky; 
+
 }
 
 .intro span {
@@ -61,10 +67,11 @@
 }
 
 .bgimgwrapper {
-  top: 75%; 
-  left: 75%; 
+  margin-top: 10%; 
+  margin-left: 5%; 
   border: var(--quaternary-color) solid 1px; 
   border-radius: 50%; 
+  overflow: hidden; 
 }
 
 .bgpara {
@@ -74,19 +81,28 @@
   word-break: break-word; 
   width: 70%; 
   margin-left: 7%;
-  margin-top: 3%;
+  margin-top: 12%;
 }
 
-.accomplishments img {
-  top: 75%; 
-  left: 30%;  
+.accomplishments {
+  display: flex; 
 }
 
-.accomplishments p{
+.accimgwrapper {
+  margin-top: 5%; 
+  margin-right: 5%; 
+  border: var(--quaternary-color) solid 1px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+}
+
+.accpara {
   font-family: Lato; 
   font-size: 2em; 
   color: var(--primary-color);
   word-break: break-word;
+  width: 70%; 
+  margin-top: 5%; 
 }
 
 

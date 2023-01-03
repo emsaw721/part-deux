@@ -13,6 +13,7 @@
 
 .hello {
   height: 50%; 
+  position: sticky; 
 }
 
 .name-plate {
@@ -52,8 +53,6 @@
   font-family: Lato; 
   font-size: 2em; 
   color: var(--primary-color);
-  position: sticky; 
-
 }
 
 .intro span {

@@ -10,10 +10,11 @@
 .home{
   background-color: var(--quinary-color); 
 }
+
 .name-plate {
   z-index: 1; 
   position: absolute; 
-  top: 30%; 
+  top: 35%; 
   left: 20%;  
 }
 
@@ -40,20 +41,54 @@
   overflow: hidden; 
 }
 
-.home p {
+.intro {
   margin-top: 7%; 
   margin-left: 20%;
+  margin-bottom: 7%; 
   font-family: Lato; 
   font-size: 2em; 
   color: var(--primary-color);
-
 }
 
-.home span {
+.intro span {
   color: var(--tertiary-color);
   font-weight: bold; 
   text-transform: uppercase; 
 }
+
+.background {
+  display: flex; 
+}
+
+.bgimgwrapper {
+  top: 75%; 
+  left: 75%; 
+  border: var(--quaternary-color) solid 1px; 
+  border-radius: 50%; 
+}
+
+.bgpara {
+  font-family: Lato; 
+  font-size: 2em; 
+  color: var(--primary-color);
+  word-break: break-word; 
+  width: 70%; 
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+.accomplishments img {
+  top: 75%; 
+  left: 30%;  
+}
+
+.accomplishments p{
+  font-family: Lato; 
+  font-size: 2em; 
+  color: var(--primary-color);
+  word-break: break-word;
+}
+
 
   @media only screen and (max-width: 600px) {
 

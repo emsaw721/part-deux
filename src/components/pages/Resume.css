@@ -14,18 +14,22 @@
     color: var(--secondary-color);
     margin-top: 5%;
     font-size: 5em; 
+    margin-left: 5%; 
+    text-shadow: var(--quaternary-color) 2px 5px; 
   }
 
   .resumecontent h3 {
     color: var(--tertiary-color); 
     font-size: 2em; 
     font-family: Lato;  
+    margin-left: 5%;
   }
 
   .resumecontent ul {
     color: var(--tertiary-color);
     font-size: 1em; 
     font-family: Lato; 
+    margin-left: 5%; 
   }
   
 button {

@@ -12,6 +12,8 @@
     color: var(--secondary-color);
     margin-top: 5%;
     font-size: 5em; 
+    margin-left: 5%; 
+    text-shadow: var(--quaternary-color) 2px 5px; 
   }
 
 

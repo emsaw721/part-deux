@@ -18,7 +18,7 @@ function Resume() {
             <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
-        <h1>Resume</h1>
+        <h1>My Resume</h1>
         <h3>Front End</h3>
             <ul>
                 <li>{getFEList}</li>

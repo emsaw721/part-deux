@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import './Resume.css';
 
 function Resume() {
-    const [frontEnd] = useState(['HTML', 'CSS', 'JavaScript', 'Web APIs', 'Third-Party APIs']);
+    const [frontEnd] = useState(['HTML', 'CSS', 'JavaScript', 'DOM Manipulation', 'JSON', 'AJAX', 'Web APIs', 'Third-Party APIs','Node', 'React', 'GraphQL API']);
 
     let getFEList= frontEnd.map((feskill) => {
         return <li>{feskill}</li>
     })
 
-    const [backEnd] = useState(['Node', 'Express', 'SQL', 'NoSQL', 'PWA', 'React'])
+    const [backEnd] = useState([ 'Express', 'SQL', 'NoSQL', 'PWA', 'MongoDB'])
     let getBEList= backEnd.map((beskill) => {
         return <li>{beskill}</li>
     })

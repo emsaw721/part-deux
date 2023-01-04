@@ -11,11 +11,6 @@
   background-color: var(--quinary-color); 
 }
 
-.hello {
-  height: 50%; 
-  position: sticky; 
-}
-
 .name-plate {
   z-index: 1; 
   position: absolute; 
@@ -27,6 +22,7 @@
   color: var(--secondary-color); 
   font-size: 7em; 
   font-family: 'League Script', cursive; 
+  /* text-shadow: var(--quaternary-color) 2px 5px;  */
 }
 
 .homeimg {
@@ -37,12 +33,13 @@
   opacity: 0.5; 
   border-radius: 50%; 
   overflow: hidden; 
+  position: sticky;
+  top: 0; 
 }
 
 .homeimg:hover {
   opacity: 1.0; 
   border-radius: 50%; 
-  display: block; 
   overflow: hidden; 
 }
 
@@ -52,7 +49,7 @@
   margin-bottom: 7%; 
   font-family: Lato; 
   font-size: 2em; 
-  color: var(--primary-color);
+  color: var(--primary-color); 
 }
 
 .intro span {
@@ -102,6 +99,7 @@
   word-break: break-word;
   width: 70%; 
   margin-top: 5%; 
+  margin-left: 5%; 
 }
 
 

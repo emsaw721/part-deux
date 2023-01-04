@@ -13,33 +13,47 @@
     justify-content: flex-end; 
     color: var(--primary-color); 
     font-family: Lato;  
+    position: sticky; 
+    top: 0; 
 }
 
-a.nav {
-  color: var(--primary-color); 
+.active {
+  text-decoration: none; 
+  color: var(--quinary-color); 
   font-family: Lato; 
+  background-color: var(--quaternary-color);
+  position: sticky; 
+  top: 0; 
 }
 
 .nav-item{
   font-size: 2em; 
   color: var(--primary-color); 
   font-family: Lato; 
+  position: sticky; 
+  top: 0; 
 }
 
 a.nav-item {
   color: var(--primary-color); 
   font-family: Lato; 
+  position: sticky; 
+  top: 0; 
 }
 
 a.nav-link{
   color: var(--primary-color); 
   font-family: Lato; 
+  position: sticky; 
+  top: 0; 
 }
 
 a.nav-link:hover {
     text-decoration: none; 
     color: var(--quinary-color); 
     font-family: Lato;  
+    position: sticky; 
+    top: 0; 
 }
 
 a.nav-link:active {
@@ -47,12 +61,16 @@ a.nav-link:active {
   color: var(--quinary-color); 
   font-family: Lato; 
   background-color: var(--quaternary-color);
+  position: sticky; 
+  top: 0; 
 }
 
 a.nav-link:visited {
   color: var(--primary-color); 
   font-family: Lato; 
   text-decoration: none; 
+  position: sticky; 
+  top: 0; 
 }
 
 .hover-2 {
@@ -65,6 +83,8 @@ a.nav-link:visited {
   overflow: hidden;
   transition: 0.3s;
   font-family: Lato; 
+  position: sticky; 
+  top: 0; 
 }
 
 .hover-2:hover {
@@ -72,6 +92,8 @@ a.nav-link:visited {
   text-decoration: none; 
   font-family: Lato; 
   color: var(--quinary-color);
+  position: sticky; 
+  top: 0; 
 }
 
 @media only screen and (max-width: 600px) {

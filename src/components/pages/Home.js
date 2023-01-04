@@ -1,24 +1,57 @@
-import React from 'react';
-
+import React, {useState, useEffect} from 'react';
 import './Home.css'; 
-import headshot from './headshot.png'
+import headshot from './headshot.png';
+import fordham from './Fordham_University_Logo.png'; 
 
-export default function Home() {
+// to stop image at intro --> useEffect --> set function and stop point (y-offset), 
+// scroll handler (within the useEffect) --> window.pageyoffset 
+
+export default function Home(props) {
+
+  const [isScrolling, setIsScrolling] = useState(null); 
+
+  useEffect(() => {
+
+    function scrollHandler () {
+      const frame = document.getElementById('hello');
+      const target = document.getElementById('intro');
+
+      frame.scrollTo(0, target)
+    }
+
+    if(!isScrolling === null) {
+      scrollHandler();
+    }
+  })
 
   return (
     <div className='home'>
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&display=swap');
 </style>
-<div className='hello'>
-      <div className='name-plate'>
+<div className='name-plate'>
       <h1>hello</h1>
       </div>
-      <div className='homeimg'>
+      <div id='hello' className='homeimg'>
       <img src={headshot} />
       </div>
+      <p id='intro' className='intro'> My name is <span style={{color: '#415A77'}}> Emily Hill </span> and I am a full stack developer based in <span style={{color: '#415A77'}}>Houston, TX</span></p>
+      <div className='background'>
+        <div className='bgimgwrapper'>
+      <img src={fordham} />
       </div>
-      <p className='intro'> My name is <span style={{color: '#415A77'}}> Emily Hill </span> and I am a full stack developer based in <span style={{color: '#415A77'}}>Houston, TX</span></p>
+      <div className='bgpara'>
+      <p>A native Houstonian, I spent 10 years in New York City, where I attended Fordham University. There, earned my Bachelor of Arts in English and completed a Post-Baccelaureate Pre-Medical program.</p>
+      </div>
+      </div>
+      <div className='accomplishments'>
+      <div className='accpara'>
+        <p>While in New York, I persued many service opportunities. I served as an Emergency Medical Technician, a tutor, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
+        </div>
+        <div className='accimgwrapper'>
+      <img src="https://via.placeholder.com/250" />
+      </div>
+      </div> 
       <div className='background'>
         <div className='bgimgwrapper'>
       <img src="https://via.placeholder.com/250" />

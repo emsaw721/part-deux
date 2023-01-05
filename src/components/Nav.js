@@ -3,7 +3,7 @@ import './Nav.css';
 import download from './pages/download.png'; 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <div className='navcontainer'>
+    <div className='navcontainer sidenav'>
             <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>

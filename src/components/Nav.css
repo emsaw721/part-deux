@@ -103,6 +103,7 @@ a.nav-link:visited {
 }
 
 @media only screen and (max-width: 600px) {
+  
   .navcontainer {
     background-color: var(--quinary-color);
     display: flex;
@@ -111,6 +112,7 @@ a.nav-link:visited {
     color: var(--secondary-color); 
     font-family: Lato; 
   }
+
   .nav {
     background-color: var(--quinary-color);
     display: flex;

@@ -105,43 +105,66 @@
 
   @media only screen and (max-width: 600px) {
 
-    .home {
-      background-color: var(--tertiary-color); 
+    .home{
+      background-color: var(--quinary-color); 
+      display: flex; 
+      flex-direction: column; 
     }
     
-    .home h1{
-      font-family: Playfair display; 
-      font-size: 2em; 
-    }
-    
-    .home img {
-      width: 100%; 
-      top: 0; 
-      left: 0; 
-      position: absolute; 
-      opacity: 1; 
-      border-radius: 50%; 
-      display: block; 
-      overflow: hidden; 
-    }
-
-
-.img-wrapper {
-  display: grid;
-  height: 100vh;
-}
-
-.img-wrapper div {
-  grid-column: 1;
-  grid-row: 1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--gray);
-  transition: opacity 0.1s;
-}
     .name-plate {
-      margin-top: 10%; 
+       display: none; 
     }
+    
+    .homeimg {
+      position: static; 
+      margin: 0; 
+      max-width: 100%;
+      height: auto; 
+      opacity: 1.0; 
+      border-radius: 0; 
+    }
+    
+    .intro {
+      margin-top: 20%; 
+      margin-bottom: 7%; 
+      font-family: Lato; 
+      font-size: 2em; 
+      color: var(--primary-color); 
+    }
+    
+    .intro span {
+      color: var(--tertiary-color);
+      font-weight: bold; 
+      text-transform: uppercase; 
+    }
+    
+    .background {
+      display: flex; 
+    }
+
+    .bgimgwrapper {
+      display: none;
+    }
+    
+    .bgpara {
+      display: none; 
+    }
+    
+    .accomplishments {
+      display: none; 
+    }
+    
+    .accimgwrapper {
+      display: none; 
+    }
+    
+
+.accpara {
+  display: none; 
+}
+
   }
+
+
+
   

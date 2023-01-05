@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B263B;
+    --tertiary-color: #415A77;
+    --quaternary-color: #778DA9;
+    --quinary-color: #E0E1DD; 
+  }
+
+.footer {
+    display: flex; 
+    justify-content: space-evenly; 
+    margin: 10px; 
+    font-family: Lato; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+
+.footer a {
+    text-decoration: none; 
+    color: var(--primary-color);
+    margin: 10px;
+}
+
+.footer a:hover {
+    text-decoration: none; 
+    color: var(--tertiary-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: flex; 
+        justify-content: space-evenly; 
+        margin-top: 10px; 
+    }
+}

@@ -98,37 +98,39 @@ a.nav-link:visited {
 
 @media only screen and (max-width: 600px) {
   .nav {
-    background-color: var(--tertiary-color);
+    background-color: var(--quinary-color);
     display: flex;
     flex-direction: column;  
     align-items: center; 
-    padding: none; 
-    margin-top: 100vh; 
-    color: var(--primary-color); 
+    color: var(--secondary-color); 
     font-family: Lato; 
+}
+
+.active {
+  background-color: var(--quaternary-color);
 }
 
 .nav-item{
   font-size: 2em; 
-  color: var(--primary-color); 
+  color: var(--secondary-color); 
   font-family: Lato; 
   margin: none; 
 }
+
 a.nav-link{
   color: var(--secondary-color); 
   font-family: Lato; 
-}
-
-a.nav-link:hover {
-  text-decoration: none; 
-  color: var(--secondary-color); 
-  font-family: Lato; 
+  width: 100%; 
 }
 
 a.nav-link:visited {
-  color: var(--secondary-color); 
+  color: var(--secondary-color);  
   font-family: Lato;  
 text-decoration: none; 
+}
+
+li.active {
+  background-color: var(--quaternary-color);
 }
 
 }

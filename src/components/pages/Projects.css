@@ -24,12 +24,8 @@
   margin: 5%; 
 }
 
-.box.coming-soon {
-  opacity: 0.2; 
-}
-
-.coming-soon button {
-  text-transform: uppercase; 
+.boxcontainer:nth(2) {
+  border-top: var(--quinary-color) 1px solid; 
 }
 
 .box {

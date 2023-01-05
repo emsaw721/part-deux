@@ -9,18 +9,21 @@ export default function Projects() {
       <h1>My Projects</h1>
       <div className='boxcontainer groupproj'>
         <div className='box'>
-          <h2>First Project</h2>
+          <h2>Marvel Character Index</h2>
           <p>CSS and JavaScript</p>
           <img src="https://via.placeholder.com/250" />
-          <button><a href="https://github.com/emsaw721/ragnarok">View Github</a></button>
+          <div className='buttoncontainer'>
+          <button><a href="https://github.com/emsaw721/ragnarok">Github</a></button>
+          <button><a href="https://emsaw721.github.io/ragnarok/">Github Pages</a></button>
+          </div>
         </div>
         <div className='box'>
-          <h2>Second Project</h2>
+          <h2>Lab Bench Buddy</h2>
           <p>CSS, JavaScript, Handlebars, and SQL</p>
           <img src="https://via.placeholder.com/250" />
           <div className='buttoncontainer'>
-          <button><a href="https://github.com/emsaw721/lab-rats">View Github</a></button>
-          <button><a href="https://obscure-lake-69191.herokuapp.com/">View Heroku</a></button>
+          <button><a href="https://github.com/emsaw721/lab-rats">Github</a></button>
+          <button><a href="https://obscure-lake-69191.herokuapp.com/">Heroku</a></button>
           </div>
         </div>
         <div className='box coming-soon'>
@@ -34,19 +37,31 @@ export default function Projects() {
           <h2>Progressive Web Application</h2>
           <p>Webpack, IndexedDB, and Workbox</p>
           <img src="https://via.placeholder.com/250" />
-          <button><a href="https://github.com/emsaw721/too-little-too-jate">View Github</a></button>
+          <button><a href="https://github.com/emsaw721/too-little-too-jate">Github</a></button>
         </div>
         <div className='box'>
           <h2>Social Media Website</h2>
           <p>NoSQL and Insomnia</p>
           <img src="https://via.placeholder.com/250" />
-          <button><a href="https://github.com/emsaw721/miniature-pancake">View Github</a></button>
+          <button><a href="https://github.com/emsaw721/miniature-pancake">Github</a></button>
         </div>
         <div className='box'>
-          <h2>Social Media Website</h2>
-          <p>NoSQL and Insomnia</p>
+          <h2>Run Buddy</h2>
+          <p>HTML and CSS</p>
           <img src="https://via.placeholder.com/250" />
-          <button><a href="https://github.com/emsaw721/miniature-pancake">View Github</a></button>
+          <div className='buttoncontainer'>
+          <button><a href="https://github.com/emsaw721/run-buddy">Github</a></button>
+          <button><a href="https://emsaw721.github.io/run-buddy/">Github Pages</a></button>
+          </div>
+        </div>
+        <div className='box'>
+          <h2>Password Generator</h2>
+          <p>JavaScript, HTML, and CSS</p>
+          <img src="https://via.placeholder.com/250" />
+          <div className='buttoncontainer'>
+            <button><a href="https://github.com/emsaw721/password-generator">Github</a></button>
+            <button><a href="https://emsaw721.github.io/password-generator/">Github Pages</a></button>
+          </div>
         </div>
       </div>
     </div>

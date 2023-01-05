@@ -3,8 +3,8 @@ import './Projects.css';
 export default function Projects() {
   return (
     <div className='projectscontent'>
-      <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
       <h1>My Projects</h1>
       <div className='boxcontainer groupproj'>

@@ -26,21 +26,15 @@
 }
 
 .homeimg {
-  width: 600px; 
-  height: 600px; 
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 5%; 
   opacity: 0.5; 
-  border-radius: 50%; 
-  overflow: hidden; 
   position: sticky;
   top: 0; 
 }
 
 .homeimg:hover {
   opacity: 1.0; 
-  border-radius: 50%; 
-  overflow: hidden; 
 }
 
 .intro {
@@ -105,6 +99,11 @@
 
   @media only screen and (max-width: 600px) {
 
+    .html {
+      width: 100%; 
+      height: 100%; 
+    }
+
     .home{
       background-color: var(--quinary-color); 
       display: flex; 
@@ -114,21 +113,31 @@
     .name-plate {
        display: none; 
     }
-    
+
     .homeimg {
       position: static; 
       margin: 0; 
-      max-width: 100%;
-      height: auto; 
       opacity: 1.0; 
-      border-radius: 0; 
+      max-width: 400px;
+      height: auto; 
+      margin: 0;
+    }
+    
+    .home img {
+      position: static; 
+      margin: 0; 
+      opacity: 1.0; 
+      max-width: 400px;
+      height: auto; 
+      margin: 0; 
     }
     
     .intro {
       margin-top: 20%; 
       margin-bottom: 7%; 
+      margin-left: 0; 
       font-family: Lato; 
-      font-size: 2em; 
+      font-size: 1.5em; 
       color: var(--primary-color); 
     }
     

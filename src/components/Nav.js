@@ -2,7 +2,11 @@ import React from 'react';
 import './Nav.css'; 
 function Nav({ currentPage, handlePageChange }) {
   return (
+    
     <ul className="nav">
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+</style>
       <li className="nav-item hover-2">
         <a
           href="#home"

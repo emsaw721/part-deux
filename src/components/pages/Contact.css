@@ -20,28 +20,36 @@
   color: var(--tertiary-color); 
   font-size: 2em; 
   font-family: Lato;  
+  margin-left: 5%; 
 }
 
 .form {
-    margin: 20px;
+    margin-left: 5%;
   }
   
 .form input {
     display: block;
+    border-bottom: 3px var(--primary-color) solid; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; 
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 100%;
+    width: 75%;
     font-family: 'League Script', cursive; 
     color: var(--secondary-color); 
     font-size: 2em; 
+    background-color: var(--quinary-color); 
 } 
 
 .form button {
     border: var(--tertiary-color) solid 2px;
     border-radius: 2px; 
     font-family: Lato; 
+    font-size: 1.5em; 
     justify-content: end; 
-    margin: 5px; 
+    margin-top: 5%; 
+    margin-bottom: 5%; 
     color: var(--primary-color);
     background-color: var(--quinary-color);
     font-family: Lato; 
@@ -49,13 +57,15 @@
   }
   
 .form button:hover {
-    border: var(--tertiary-color) solid 2px;
-    border-radius: 2px; 
-    font-family: Lato; 
-    justify-content: end; 
-    margin: 5px; 
-    color: var(--primary-color);
-    background-color: var(--tertiary-color);
-    font-family: Lato; 
-    text-transform: uppercase; 
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 2px; 
+  font-family: Lato; 
+  font-size: 1.5em; 
+  justify-content: end; 
+  margin-top: 5%; 
+  margin-bottom: 5%; 
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
+  font-family: Lato; 
+  text-transform: uppercase; 
   }

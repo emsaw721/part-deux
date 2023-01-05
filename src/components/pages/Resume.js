@@ -1,6 +1,7 @@
 import React, {useState} from 'react'; 
 import './Resume.css';
 
+
 function Resume() {
     const [frontEnd] = useState(['HTML', 'CSS', 'JavaScript', 'DOM Manipulation', 'JSON', 'AJAX', 'Web APIs', 'Third-Party APIs','Node', 'React', 'GraphQL API']);
 
@@ -15,9 +16,10 @@ function Resume() {
 
     return(
         <div className='resumecontent'>
-            <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
+     <style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <h1>My Resume</h1>
         <h3>Front End</h3>
             <ul>

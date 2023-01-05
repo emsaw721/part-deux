@@ -6,14 +6,15 @@
     --quinary-color: #E0E1DD; 
   }
 
+
 .footer {
     display: flex; 
     justify-content: space-evenly; 
-    margin: 10px; 
+    margin: 5%; 
     font-family: Lato; 
     font-size: 1.5em; 
     font-weight: bold; 
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 

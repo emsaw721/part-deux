@@ -89,3 +89,16 @@ button a:hover {
   background-color: var(--tertiary-color);
   text-transform: uppercase; 
 }
+
+@media only screen and (max-width: 600px) {
+
+  .projectscontent h1 {
+    font-family: Playfair display; 
+    background-color: var(--quinary-color);
+    color: var(--secondary-color);
+    margin-top: 5%;
+    font-size: 4em; 
+    margin-left: 5%; 
+    text-shadow: var(--quaternary-color) 2px 5px; 
+  }
+}

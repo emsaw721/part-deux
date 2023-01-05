@@ -7,15 +7,21 @@
   --quinary-color: #E0E1DD; 
 }
 
+.navcontainer {
+  display: flex; 
+  justify-content: space-between; 
+  position: sticky; 
+  top: 0; 
+}
+
 .nav {
-    background-color: var(--quinary-color);
-    display: flex;
-    justify-content: flex-end; 
+    background-color: var(--quinary-color); 
     color: var(--primary-color); 
     font-family: Lato;  
     position: sticky; 
     top: 0; 
 }
+
 
 .active {
   text-decoration: none; 
@@ -97,6 +103,14 @@ a.nav-link:visited {
 }
 
 @media only screen and (max-width: 600px) {
+  .navcontainer {
+    background-color: var(--quinary-color);
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    color: var(--secondary-color); 
+    font-family: Lato; 
+  }
   .nav {
     background-color: var(--quinary-color);
     display: flex;

@@ -93,12 +93,37 @@ button a:hover {
 @media only screen and (max-width: 600px) {
 
   .projectscontent h1 {
-    font-family: Playfair display; 
-    background-color: var(--quinary-color);
-    color: var(--secondary-color);
-    margin-top: 5%;
-    font-size: 4em; 
-    margin-left: 5%; 
-    text-shadow: var(--quaternary-color) 2px 5px; 
+    display: none; 
   }
+
+  .box {
+    display: flex; 
+    width: 300px; 
+    height: 600px; 
+    border: var(--quaternary-color) solid 1px; 
+    border-radius: 5px; 
+    margin: 1%; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+  }
+  
+  .box h2{
+    font-family: Playfair display; 
+    text-align: center;
+    color: var(--tertiary-color);
+  }
+  
+  .box p{
+    font-family: Lato; 
+    text-align: center; 
+  }
+  
+  .box img{
+    width: 250px; 
+    height: 250px; 
+    margin: 5%; 
+  }
+
+
 }

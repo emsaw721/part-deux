@@ -26,11 +26,11 @@
 }
 
 .homeimg {
-  margin-left: 25%;
+  width: 400px;
+  height: 400px; 
+  margin-left: 20%;
   margin-top: 5%; 
   opacity: 0.5; 
-  position: sticky;
-  top: 0; 
 }
 
 .homeimg:hover {
@@ -48,8 +48,8 @@
 
 .intro span {
   color: var(--tertiary-color);
+  font-family: Playfair display; 
   font-weight: bold; 
-  text-transform: uppercase; 
 }
 
 .background {
@@ -122,7 +122,7 @@
       height: auto; 
       margin: 0;
     }
-    
+
     .home img {
       position: static; 
       margin: 0; 

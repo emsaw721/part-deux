@@ -7,15 +7,31 @@
   --quinary-color: #E0E1DD; 
 }
 
+.resumecontent {
+  margin-left: 5%; 
+  font-family: Lato; 
+}
 
   .resumecontent h1 {
     font-family: Playfair display; 
     background-color: var(--quinary-color);
     color: var(--secondary-color);
     margin-top: 5%;
+    margin-bottom: 5%; 
     font-size: 5em; 
     margin-left: 5%; 
     text-shadow: var(--quaternary-color) 2px 5px; 
+  }
+
+  .resumecontent h1 span {
+    font-family: Playfair display;
+    text-shadow: none; 
+  }
+
+  .glance {
+    font-family: Lato; 
+    font-size: 2em; 
+    color: var(--tertiary-color); 
   }
 
   .resumecontent h3 {
@@ -56,7 +72,16 @@ button:hover {
     display: none; 
   }
 
-  .resumecontent h3 {
-    dispaly: none; 
+  h1 {
+    display: none; 
+  }
+
+  .glance {
+    font-family: Lato; 
+    color: var(--secondary-color);
+  }
+
+  .glance img {
+    color: var(--primary-color); 
   }
 }

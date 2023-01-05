@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './Home.css'; 
 import headshot from './headshotedit.png';
-import stethoscope from './stethoscope.png'; 
 import fordham from './Fordham_University_Logo.png'; 
+import ems from './ems.png'; 
 
 // to stop image at intro --> useEffect --> set function and stop point (y-offset), 
 // scroll handler (within the useEffect) --> window.pageyoffset 
@@ -48,26 +48,10 @@ export default function Home(props) {
       </div>
       <div className='accomplishments'>
       <div className='accpara'>
-        <p>While in New York, I persued many service opportunities. I served as an Emergency Medical Technician, a tutor, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
+        <p>While in New York, I served as an Emergency Medical Technician, a science and writing tutor, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
         </div>
         <div className='accimgwrapper'>
-      <img src={stethoscope} />
-      </div>
-      </div> 
-      <div className='background'>
-        <div className='bgimgwrapper'>
-      <img src="https://via.placeholder.com/250" />
-      </div>
-      <div className='bgpara'>
-      <p>I grew up in Houston, but spent 10 years in New York City, where I attended Fordham University. There, earned my Bachelor of Arts in English and completed a Post-Baccelaureate Pre-Medical program.</p>
-      </div>
-      </div>
-      <div className='accomplishments'>
-      <div className='accpara'>
-        <p>While in New York, I persued many service opportunities. I served as an Emergency Medical Technician, a tutor, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
-        </div>
-        <div className='accimgwrapper'>
-      <img src="https://via.placeholder.com/250" />
+      <img src={ems} />
       </div>
       </div> 
     </div>

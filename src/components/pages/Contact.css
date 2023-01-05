@@ -69,3 +69,13 @@
   font-family: Lato; 
   text-transform: uppercase; 
   }
+
+  @media only screen and (max-width: 600px;) {
+    .contact h1 {
+      display: none; 
+    }
+
+    .contact p {
+      display: none; 
+    }
+  }

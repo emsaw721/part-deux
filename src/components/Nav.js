@@ -1,12 +1,17 @@
 import React from 'react';
 import './Nav.css'; 
+import download from './pages/download.png'; 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    
-    <ul className="nav">
-      <style>
+    <div className='navcontainer'>
+            <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
+         <div className='resumebtn'>
+       <button><img src={download} />Download Full Resume</button>
+      </div>
+      <div>
+    <ul className="nav">
       <li className="nav-item hover-2">
         <a
           href="#home"
@@ -39,6 +44,8 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+    </div>
   );
 }
 

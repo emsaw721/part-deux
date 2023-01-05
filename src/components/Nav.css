@@ -79,6 +79,10 @@ a.nav-link:visited {
   top: 0; 
 }
 
+a.nav-link:visited:hover {
+  color: var(--quinary-color); 
+}
+
 .hover-2 {
   --h: 1.2em;   /* the height */
   

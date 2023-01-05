@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
 import Home from './pages/Home';
@@ -28,6 +29,7 @@ export default function PortfolioContainer() {
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 </style>
+      <Header />
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

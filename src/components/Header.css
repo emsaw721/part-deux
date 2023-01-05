@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B263B;
+    --tertiary-color: #415A77;
+    --quaternary-color: #778DA9;
+    --quinary-color: #E0E1DD; 
+  }
+
+.header {
+    height: 100px; 
+    background-color: repeating-linear-gradient(
+        45deg,
+        #E0E1DD,
+        #E0E1DD 10px,
+        #465298 10px,
+        #465298 20px
+    ); 
+  }

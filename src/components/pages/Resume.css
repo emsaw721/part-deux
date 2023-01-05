@@ -49,3 +49,14 @@ button:hover {
   background-color: var(--tertiary-color);
   text-transform: uppercase; 
 }
+
+
+@media only screen and (max-width: 600px;) {
+  .resumecontent h1 {
+    display: none; 
+  }
+
+  .resumecontent h3 {
+    dispaly: none; 
+  }
+}

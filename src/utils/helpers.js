@@ -6,7 +6,7 @@ export function validateEmail(email) {
 
 export function validateName(contactName) {
   const contactNam = /^[A-Z](?=.{1,29}$)[A-Za-z]*(?:\h+[A-Z][A-Za-z]*)*$/;
-  if (input.match(contactNam)) {
+  if (contactName.match(contactNam)) {
     return true; 
   }
   return false; 

@@ -1,21 +1,27 @@
 {
   "files": {
     "main.css": "/part-deux/static/css/main.87121b6b.css",
-    "main.js": "/part-deux/static/js/main.cbf174f4.js",
+    "main.js": "/part-deux/static/js/main.d7032561.js",
     "static/js/787.0eca0654.chunk.js": "/part-deux/static/js/787.0eca0654.chunk.js",
     "static/media/headshotedit.png": "/part-deux/static/media/headshotedit.874570767a8f1d138cf3.png",
+    "static/media/labbench.png": "/part-deux/static/media/labbench.3748cfe9335db3869f5b.png",
+    "static/media/runbuddy.png": "/part-deux/static/media/runbuddy.7cd42ee9e29b4cd9bacc.png",
     "static/media/Fordham_University_Logo.png": "/part-deux/static/media/Fordham_University_Logo.8780b917942bb9ec7153.png",
+    "static/media/socialmediaweb.png": "/part-deux/static/media/socialmediaweb.ffb678cfd6d7847c59b2.png",
     "static/media/ems.png": "/part-deux/static/media/ems.3ad5f23d4c85aa10a906.png",
+    "static/media/marvel.png": "/part-deux/static/media/marvel.41495b3598e1ed22fead.png",
     "static/media/instagramicon.png": "/part-deux/static/media/instagramicon.8983a4c7384f64d6ff2b.png",
     "static/media/githubicon.png": "/part-deux/static/media/githubicon.dc5916a0f53426629027.png",
     "static/media/linkedinicon.png": "/part-deux/static/media/linkedinicon.c31fac766afff082b0ea.png",
+    "static/media/pass-gen.png": "/part-deux/static/media/pass-gen.d1a747ec9ba2f11d5ec2.png",
+    "static/media/pwa.png": "/part-deux/static/media/pwa.b467664314515a35550f.png",
     "index.html": "/part-deux/index.html",
     "main.87121b6b.css.map": "/part-deux/static/css/main.87121b6b.css.map",
-    "main.cbf174f4.js.map": "/part-deux/static/js/main.cbf174f4.js.map",
+    "main.d7032561.js.map": "/part-deux/static/js/main.d7032561.js.map",
     "787.0eca0654.chunk.js.map": "/part-deux/static/js/787.0eca0654.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87121b6b.css",
-    "static/js/main.cbf174f4.js"
+    "static/js/main.d7032561.js"
   ]
 }

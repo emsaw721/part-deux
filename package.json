@@ -1,7 +1,7 @@
 {
   "name": "part-deux",
   "version": "0.1.0",
-  "homepage":"http://emsaw721.github.io/part-deux/",
+  "homepage":"http://emsaw721.github.io/part-deux",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

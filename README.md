@@ -1,11 +1,13 @@
 # React Portfolio 
 
 ## Description 
+This application is the MVP of my portfolio using React. 
 
 ## Table of Contents 
 [Usage](#usage) <br>
-[RoadMap](#road map) <br>
-[License](#license)
+[Road Map](#road map) <br>
+[License](#license) <br>
+[Status](#status)
 
 ## Usage 
 When the application opens, the user will see the homepage, that functions as the about me. 
@@ -20,10 +22,16 @@ The user then selects the resume tab, which outlines the main points of my full 
 Finally, the user can choose to contact me if they'd like more information or just want to say hello! On the contact page, the user is directed to fill out their name, an email, and a message. 
 ![Alt text](./images/deux-contact.png)
 If their name or email is invalid upon submission, an error message will occur. 
-![Alt text](./images/duex-contact-name-error.png)
+![Alt text](./images/deux-contact-name-error.png)
 If the user did not fill out a message upon submission, an error message will occur. 
 ![Alt text](./images/deux-contact-mess-error.png)
 This serves as a reminder to the user that these three fields are required to submit the contact form. 
+
 ## Road Map 
+Future iterations of this project will include a better mobile first user interface as well as a working Download Resume button. 
 
 ## License 
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Status
+<img src="https://img.shields.io/badge/Status-In%20Progress-orange" />

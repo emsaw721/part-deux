@@ -5,7 +5,7 @@ This application is the MVP of my portfolio using React.
 
 ## Table of Contents 
 [Usage](#usage) <br>
-[Road Map](#road map) <br>
+[Road Map](#road-map) <br>
 [License](#license) <br>
 [Status](#status)
 

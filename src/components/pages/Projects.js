@@ -36,6 +36,8 @@ export default function Projects() {
           <h2>Third Project Coming Soon!</h2>
           <p></p>
           <img src="https://via.placeholder.com/250" />
+          <button><a href='https://github.com/emsaw721/stacks-on-stacks/tree/develop'>Github</a></button>
+          <button><a href='https://guarded-gorge-65763.herokuapp.com/'>Heroku</a></button>
         </div>
         </div>
         <div className='boxcontainer myproj'>

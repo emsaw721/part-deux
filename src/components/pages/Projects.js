@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css'; 
 import marvel from './marvel.png';
 import labbench from './labbench.png';
+import oink from './oinkicon1.png'; 
 import pwa from './pwa.png';
 import socialmedia from './socialmediaweb.png';
 import runbuddy from './runbuddy.png';
@@ -32,12 +33,14 @@ export default function Projects() {
           <button><a href="https://obscure-lake-69191.herokuapp.com/">Heroku</a></button>
           </div>
         </div>
-        <div className='box coming-soon'>
-          <h2>Third Project Coming Soon!</h2>
-          <p></p>
-          <img src="https://via.placeholder.com/250" />
+        <div className='box'>
+          <h2>Oink! The Budget App</h2>
+          <p>MERN, CSS, and NPM Packages</p>
+          <img src={oink} />
+          <div className='buttoncontainer'>
           <button><a href='https://github.com/emsaw721/stacks-on-stacks/tree/develop'>Github</a></button>
           <button><a href='https://guarded-gorge-65763.herokuapp.com/'>Heroku</a></button>
+          </div>
         </div>
         </div>
         <div className='boxcontainer myproj'>

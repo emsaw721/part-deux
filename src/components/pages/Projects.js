@@ -1,12 +1,12 @@
 import React from 'react';
 import './Projects.css'; 
-import marvel from './marvel.png';
-import labbench from './labbench.png';
-import oink from './oinkicon1.png'; 
-import pwa from './pwa.png';
-import socialmedia from './socialmediaweb.png';
-import runbuddy from './runbuddy.png';
-import passgen from './pass-gen.png';
+import marvel from './pagesimgs/marvel.png';
+import labbench from './pagesimgs/labbench.png';
+import oink from './pagesimgs/oinkicon1.png'; 
+import pwa from './pagesimgs/pwa.png';
+import socialmedia from './pagesimgs/socialmediaweb.png';
+import runbuddy from './pagesimgs/runbuddy.png';
+import passgen from './pagesimgs/pass-gen.png';
 export default function Projects() {
   return (
     <div className='projectscontent'>

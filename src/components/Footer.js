@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import github from './pages/githubicon.png';
-import linkedin from './pages/linkedinicon.png'; 
-import instagram from './pages/instagramicon.png';
+import github from './pages/pagesimgs/githubicon.png';
+import linkedin from './pages/pagesimgs/linkedinicon.png'; 
+import instagram from './pages/pagesimgs/instagramicon.png';
 
 function Footer() {
     return (

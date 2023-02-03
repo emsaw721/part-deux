@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './Home.css'; 
-import headshot from './headshotedit.png';
-import fordham from './Fordham_University_Logo.png'; 
-import ems from './ems.png'; 
+import headshot from './pagesimgs/headshotedit.png';
+import fordham from './pagesimgs/Fordham_University_Logo.png'; 
+import ems from './pagesimgs/ems.png'; 
 
 // to stop image at intro --> useEffect --> set function and stop point (y-offset), 
 // scroll handler (within the useEffect) --> window.pageyoffset 

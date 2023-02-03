@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css'; 
-import download from './pages/download.png'; 
+import download from './pages/pagesimgs/download.png'; 
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div className='navcontainer sidenav'>
@@ -23,6 +23,9 @@ function Nav({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item hover-2">
         <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
+      </li>
+          <li className="nav-item hover-2">
+        <a href="#blog" onClick={() => handlePageChange('Blog')} className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}>Blog</a>
       </li>
     </ul>
     </div>

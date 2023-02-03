@@ -1,9 +1,9 @@
 import React, {useState} from 'react'; 
 import './Resume.css';
-import gradcap from './gradcap.png';
-import code from './codeblocks.png'; 
-import volicon from './volunteericon.png'; 
-import workicon from './workicon.png'; 
+import gradcap from './pagesimgs/gradcap.png';
+import code from './pagesimgs/codeblocks.png'; 
+import volicon from './pagesimgs/volunteericon.png'; 
+import workicon from './pagesimgs/workicon.png'; 
 
 
 function Resume() {

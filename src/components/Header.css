@@ -1,10 +1,11 @@
+
 :root {
-    --primary-color: #0D1B2A;
-    --secondary-color: #1B263B;
-    --tertiary-color: #415A77;
-    --quaternary-color: #778DA9;
-    --quinary-color: #E0E1DD; 
-  }
+  --primary-color: #0D1B2A;
+  --secondary-color: #1B263B;
+  --tertiary-color: #415A77;
+  --quaternary-color: #778DA9;
+  --quinary-color: #FFFCF9; 
+}
 
 .header {
     height: 100px; 

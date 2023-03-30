@@ -3,6 +3,7 @@ import './Home.css';
 import headshot from './pagesimgs/headshotedit.png';
 import fordham from './pagesimgs/Fordham_University_Logo.png'; 
 import ems from './pagesimgs/ems.png'; 
+import rice from './pagesimgs/riceseal.png'; 
 
 // to stop image at intro --> useEffect --> set function and stop point (y-offset), 
 // scroll handler (within the useEffect) --> window.pageyoffset 
@@ -26,7 +27,7 @@ export default function Home(props) {
   })
 
   return (
-    <div className='home'>
+  <section className='home'>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=League+Script&family=Playfair+Display:wght@900&display=swap');
 </style>
@@ -54,6 +55,14 @@ export default function Home(props) {
       <img src={ems} />
       </div>
       </div> 
-    </div>
+      <div className='background'>
+      <div className='bgimgwrapper'>
+      <img src={rice} />
+      </div>
+      <div className='bgpara'>
+      <p>In January of 2023, I completed a full stack developer bootcamp at Rice University. </p>
+      </div>
+      </div>
+    </section>
   );
 }

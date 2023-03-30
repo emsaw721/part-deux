@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css'; 
 import downloadicon from './pages/pagesimgs/download.png'; 
+import resume from '../components/assets/resume/hill_resume_2023.pdf';
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div className='navcontainer sidenav'>
@@ -9,7 +10,7 @@ function Nav({ currentPage, handlePageChange }) {
 </style>
          <div className='resumebtn'>
        <button><img src={downloadicon} />
-       <a href='../../assets/resume/hill_resume_2023.pdf' dowload='hill_resume_2023.pdf'> Download Resume </a></button>
+       <a href={resume} download='hill_resume_2023.pdf'> Download Resume </a></button>
       </div>
       <div>
     <ul className="nav">

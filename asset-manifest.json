@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/part-deux/static/css/main.87121b6b.css",
-    "main.js": "/part-deux/static/js/main.e3c1c9d4.js",
+    "main.css": "/part-deux/static/css/main.0ca3f27b.css",
+    "main.js": "/part-deux/static/js/main.d3ca068c.js",
     "static/js/787.0eca0654.chunk.js": "/part-deux/static/js/787.0eca0654.chunk.js",
     "static/media/headshotedit.png": "/part-deux/static/media/headshotedit.874570767a8f1d138cf3.png",
     "static/media/labbench.png": "/part-deux/static/media/labbench.3748cfe9335db3869f5b.png",
+    "static/media/riceseal.png": "/part-deux/static/media/riceseal.fab48a7b858456739193.png",
     "static/media/runbuddy.png": "/part-deux/static/media/runbuddy.7cd42ee9e29b4cd9bacc.png",
     "static/media/Fordham_University_Logo.png": "/part-deux/static/media/Fordham_University_Logo.8780b917942bb9ec7153.png",
     "static/media/socialmediaweb.png": "/part-deux/static/media/socialmediaweb.ffb678cfd6d7847c59b2.png",
+    "static/media/hill_resume_2023.pdf": "/part-deux/static/media/hill_resume_2023.4b78632203bcde54615e.pdf",
     "static/media/ems.png": "/part-deux/static/media/ems.3ad5f23d4c85aa10a906.png",
     "static/media/marvel.png": "/part-deux/static/media/marvel.41495b3598e1ed22fead.png",
     "static/media/instagramicon.png": "/part-deux/static/media/instagramicon.8983a4c7384f64d6ff2b.png",
@@ -17,12 +19,12 @@
     "static/media/pwa.png": "/part-deux/static/media/pwa.b467664314515a35550f.png",
     "static/media/oinkicon1.png": "/part-deux/static/media/oinkicon1.faa259bea6ede5b59d4d.png",
     "index.html": "/part-deux/index.html",
-    "main.87121b6b.css.map": "/part-deux/static/css/main.87121b6b.css.map",
-    "main.e3c1c9d4.js.map": "/part-deux/static/js/main.e3c1c9d4.js.map",
+    "main.0ca3f27b.css.map": "/part-deux/static/css/main.0ca3f27b.css.map",
+    "main.d3ca068c.js.map": "/part-deux/static/js/main.d3ca068c.js.map",
     "787.0eca0654.chunk.js.map": "/part-deux/static/js/787.0eca0654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87121b6b.css",
-    "static/js/main.e3c1c9d4.js"
+    "static/css/main.0ca3f27b.css",
+    "static/js/main.d3ca068c.js"
   ]
 }

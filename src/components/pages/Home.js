@@ -44,12 +44,12 @@ export default function Home(props) {
       <img src={fordham} />
       </div>
       <div className='bgpara'>
-      <p>A native Houstonian, I spent 10 years in New York City, where I attended Fordham University. There, earned my Bachelor of Arts in English and completed a Post-Baccelaureate Pre-Medical program.</p>
+      <p>A native Houstonian, I spent 8 years in New York City, where I attended Fordham University. There, earned my Bachelor of Arts in English. I focused on LGBTQ themes reflected in gothic literature and abuses perpetuated by the medical community. After, completed a Post-Baccelaureate Pre-Medical program.</p>
       </div>
       </div>
       <div className='accomplishments'>
       <div className='accpara'>
-        <p>While in New York, I served as an Emergency Medical Technician, a science and writing tutor, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
+        <p>While in New York, I served as an Emergency Medical Technician, a science and writing tutor, an educator with the theatrical outreach program, a dog rescue foster parent, and, during the COVID-19 pandemic, as a Nurse's Aid at St. John's Riverside Hospital.</p>
         </div>
         <div className='accimgwrapper'>
       <img src={ems} />

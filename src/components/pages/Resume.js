@@ -27,8 +27,8 @@ function Resume() {
         <div className='glance'>
         <img src={gradcap} /> B.A. & B.S. Fordham University <br/>
         <img src={code} />Coding Bootcamp at Rice University <span className='shortlistlink'> ✳︎see <a href='#theshortlist'>The Short List</a>✳︎</span><br/>
-        <img src={volicon} /> EMT, Tutor, & Theatrical Outreach  <br/>
-        <img src={workicon} /> Medical Examiner, Literary Intern, & Nurse's Aid<br/>
+        <img src={volicon} /> EMT, Tutor, Dog Foster, & Theatrical Outreach  <br/>
+        <img src={workicon} /> Medical Examiner's Office, Literary Intern, & Nurse's Aid<br/>
         </div>
         <div id='theshortlist'>
         <h2>The Short List</h2>
